@@ -9,10 +9,10 @@ from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_score
 
 # Configuración de la página
-st.set_page_config(page_title="Predicción de Churn", page_icon="📉", layout="wide")
+st.set_page_config(page_title="Predicción", page_icon="📉", layout="wide")
 
-st.title("📉 Predicción de baja de clientes (Churn)")
-st.write("Ejemplo educativo con Streamlit. Entrena un modelo simple y realiza predicciones.")
+st.title("📉 Predicción de baja de clientes")
+st.write("Ejemplo de Sesión1. Entrena un modelo simple y realiza predicciones.")
 
 # Generar dataset sintético
 def make_synthetic_data(n=500):
